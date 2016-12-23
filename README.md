@@ -1,5 +1,5 @@
 # snodew
-*snodew is a PHP reverse shell which uses a small suid binary to escalate privileges on connection*</br></br>snodew is made mainly to work alongside [vlany](https://github.com/mempodippy/vlany) but can also be setup as a regular root backdoor
+*snodew is a PHP reverse shell backdoor which uses a small suid binary to escalate privileges on connection*</br></br>snodew is made mainly to work alongside [vlany](https://github.com/mempodippy/vlany) but can also be setup as a regular root backdoor
 
 ## usage
 ```
