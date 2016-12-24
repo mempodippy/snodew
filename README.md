@@ -29,3 +29,4 @@ cd snodew/
  * when vlany is installed, simply su'ing to the service user won't allow them to see the files. vlany checks to see if an apache environment variable is also exported before giving access to the file, so that - by default - the file can only be accessed from a browser or from an owner shell
   * exporting the apache environment variable that vlany checks, after su'ing to the service user will circumvent this
  * suid possibly disabled
+ * not using 'exit' to exit the shell will leave the process spawned by apache in process lists (ps, top etc)
