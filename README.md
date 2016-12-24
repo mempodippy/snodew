@@ -27,3 +27,4 @@ cd snodew/
  * if not being used alongside some kind of rootkit, everything you do is visible
  * it's only a reverse shell
  * if using this with vlany, the only user able to see the new files is the service user. this could prove a vulnerability - just su to the user and you can see snodew's files easily
+ * suid possibly disabled
