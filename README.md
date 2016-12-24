@@ -26,5 +26,5 @@ cd snodew/
  * sh process spawned from service user is visible
  * if not being used alongside some kind of rootkit, everything you do is visible
  * it's only a reverse shell
- * if using this with vlany, the only user able to see the new files is the service user. this could prove a vulnerability - just su to the user and you can see snodew's files easily
+ * when vlany is installed, simply su'ing to the service user won't allow them to see the files. vlany checks to see if an apache environment variable is also exported before giving access to the file, so that - by default - the file can only be accessed from a browser or from an owner shell
  * suid possibly disabled
