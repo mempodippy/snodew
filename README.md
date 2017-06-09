@@ -23,7 +23,7 @@ cd snodew/
 *Result after following instructions given on our new page*
 
 ## notes
- * requires a web service to be running on the box
+ * requires a web service to be running on the box (along with php support for the service package)
  * sh process spawned from service user is visible, though this could be subverted by checking /proc/self/cmdline and hiding the process if it contains the hidden suid bin
  * if not being used alongside some kind of rootkit, everything you do is visible
  * it's only a reverse shell
