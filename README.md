@@ -16,10 +16,10 @@ cd snodew/
 ./setup.sh /var/www/html/blog sexlovegod X 0 # 'X' and '0' since extended attribute doesn't really matter,
                                              # and our suid binary will set our gid to 0
 ```
-<img src="http://i.imgur.com/YneuIpp.png"/></br>
+<img src="http://i.imgur.com/EA93M3g.png"/></br>
 *Result of successful setup*
 
-<img src="http://i.imgur.com/AwlnKt6.png"/></br>
+<img src="http://i.imgur.com/2MM3h45.png"/></br>
 *Result after following instructions given on our new page*
 
 ## notes
